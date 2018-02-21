@@ -31,6 +31,12 @@ Usage
 This makes a very simple simulation plot, automatically feeding the parameters into GRWAVE from Python. 
 No files are used, just ``io.StringIO``.
 
+For modeling communications circuits, signal strength is just one part of a complex system. 
+You must also includes dominant factors such as:
+
+* ITU-R `P.372 <https://www.itu.int/rec/R-REC-P.372/en>`_ Radio circuit noise
+* ITU-R `F.1487 <https://www.itu.int/rec/R-REC-F.1487-0-200005-I/en>`_ Ionospheric circuit simultation. Even if you only want groundwave, the ionospheric path in general interferes with the groundwave path.
+
 
 
 Variables
